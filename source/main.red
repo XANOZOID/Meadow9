@@ -5,7 +5,7 @@ Red [
 
 S: [
     meta: [ 
-        title: "Banzai!" 
+        title: "Meadow9" 
         flags: [resize] 
     ]
     editor: [
