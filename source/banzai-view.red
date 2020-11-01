@@ -20,10 +20,8 @@ context [
     
     view/flags/no-wait compose [
         title S/meta/title ; size 1400x800'
-        button "Run" [
-            do init/text
-            do code/text
-        ]
+        button "Run" [ do init/text do code/text ]
+        button "Print" [ print [ (do init/text) (do code/text) ] ]
         text "Left: 'init' --> Right: 'code'"
         return 
         
